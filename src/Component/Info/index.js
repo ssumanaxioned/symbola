@@ -12,7 +12,7 @@ const Info = () => {
       <div className="wrapper text-center text-black-m text-base md:w-3/5 lg:w-11/12">
         <div className="space-y-4 sm:space-y-4">
           <h2 className="font-extrabold text-3xl text-black-d md:text-4xl">The best legal tools for startups</h2>
-          <p className="text-xl">Form a Delware C-Corp with our guided workflows. Issue stock to the founders
+          <p className="text-xl lg:w-4/6 lg:mx-auto">Form a Delware C-Corp with our guided workflows. Issue stock to the founders
             with the push
             of
             a button. Make

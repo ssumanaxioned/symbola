@@ -9,7 +9,7 @@ const Founder = () => {
       free: true,
       comingSoon: false,
       title: 'Incorporate Workflow',
-      desc: 'Our startup package is always free. We grow with you. No credit card required.'
+      desc: 'Form a Deleware C-Corp, issue your bylaws, obtain a registered agent and EIN  using our self-guided startup formation workflow.'
     },
     {
       id: 2,
@@ -50,12 +50,12 @@ const Founder = () => {
 
   return (
     <div className='py-16 bg-gray-50'>
-      <div className="wrapper text-center">
+      <div className="wrapper text-center md:w-3/5 lg:w-11/12">
         <h3 className="mb-4 font-extrabold text-3xl text-black-d">Free For Founders.</h3>
         <p className="text-xl text-black-m">Our startup package is always free. We grow with you. No credit card
           required.</p>
 
-        <ul className="mt-6 space-y-6 text-left">
+        <ul className="grid grid-cols-1 gap-6 mt-6 text-left md:grid-cols-2 lg:grid-cols-3">
           {
             data.map((list) => (
               <Card key={list.id} list={list} />
